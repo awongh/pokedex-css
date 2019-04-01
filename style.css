@@ -1,0 +1,247 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+		margin:0px;
+		padding:0px;
+
+}
+
+.container{
+		margin:0 auto;
+		width:380px;
+
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+    width: 81vw;
+}
+
+/* Beginning of web content CSS definition */
+
+/* .poke {
+    width: 100%;
+} */
+
+.poke-stats {
+    display: inline-block;
+    width: 420px;
+    /* width: 49%; */
+    /* padding-left: 50px; */
+}
+
+.poke-stats-img {
+    background-color: rgb(189, 182, 182);
+    /* width: 48%; */
+    padding-left: 2px;
+    margin-left: 10px;
+    width: 420px;
+    height: 420px;
+}
+
+.poke-stats-img>img {
+    width: 420px;
+    height: 420px;
+}
+
+/* Start of table CSS definition */
+
+
+
+.poke-data {
+    display: inline-block;
+    /* width: 40%; */
+    width: 420px;
+    vertical-align: top;
+    margin-left: 35px;
+}
+
+.description {
+    width: 420px;
+    height: 100px;
+}
+
+.poke-data-table {
+    display: block;
+    background: rgb(51, 164, 216);
+    /* width: 90%; */
+    /* margin: 15px; */
+    /* border-top: */
+    width: 360px;
+    border-radius: 8px;
+}
+
+.poke-data-row {
+    display: block;
+}
+
+.poke-data-cell {
+    display: inline-block;
+    font-size: 1rem;
+    padding: 10px;
+    width: 150px;
+}
+
+.poke-data-active {
+    color: white;
+}
+
+.poke-data-atrribute {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    padding: 3px 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 5px 0;
+    width: 40px;
+}
+
+h3 {
+    margin-left: 12px;
+    /* margin-top: 20px;  */
+    padding-top: 16px;
+    padding-left: 20px;
+    margin-bottom: 0;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.evolutions-detail {
+    display: inline-block;
+    /* margin: 16px 20px; */
+    margin-left: 18px;
+    width: 220px;
+    height: 300px;
+}
+
+
+
+span {
+    color: rgb(209, 200, 200);
+}
+
+i {
+    border: solid white;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 3px;
+    width: 70px;
+    height: 70px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+
+/* Media Query */
+
+@media screen and (max-width: 600px) {
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .header {
+        width: 360px;
+    }
+
+    .description {
+        width: 360px;
+        margin-top: 20px;
+    }
+
+    .poke-stat {
+        display: block;
+        width: 360px;
+    }
+
+    .poke-stats-img>img {
+        width: 360px;
+        height: 360px;
+    }
+
+    #poke-stats-caption {
+        padding-left: 16px;
+    }
+
+    #poke-stats-table {
+        width: 360px;
+        height: 120px;
+    }
+
+    .poke-stats-cell {
+        width: 4px;
+    }
+
+    .poke-data {
+        display: block;
+        margin-left: 10px;
+    }
+
+    .poke-stats-img {
+        width: 360px;
+        height: 360px;
+    }
+
+    .poke-stats-img>img {
+        width: 360px;
+        height: 360px;
+    }
+
+    .poke-data-caption {
+        width: 360px;
+    }
+
+    .poke-data-type {
+        width: 360px;
+    }
+
+    .poke-data-weakness {
+        width: 360px;
+    }
+
+    h3 {
+        text-align: center;
+        width: 320px;
+    }
+
+    .evolutions {
+        background: grey;
+        width: 360px;
+        height: 1200px;
+    }
+
+    .evolutions-detail {
+        display: block;
+        margin-left: 60px;
+        margin-top: 15px;
+    }
+
+    .arrow {
+        display: block;
+        height: 100px;
+        font-size: 100px;
+        /* margin: 0; */
+        padding-left: 120px;
+        padding-bottom: 30px;
+    }
+
+    .right {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+}
+
+@media screen and (min-width: 720px) {
+	.container{
+		width: 885px;
+	}
+}
